@@ -1,5 +1,4 @@
-# Improving Unsupervised Relation Extraction by Augmenting Diverse
-Sentence Pairs
+# Improving Unsupervised Relation Extraction by Augmenting Diverse Sentence Pairs
 
 ## Paper Link
 
@@ -15,8 +14,7 @@ Download bert_base_uncased from https://huggingface.co/bert-base-uncased
 
 pip install -r requirements.txt
 
-## Augmentation through Cross-Sentence
-Pairs Extraction
+## Augmentation through Cross-Sentence Pairs Extraction
 
 Go inside the folder cross_sentence_pairs_extraction
 
@@ -24,7 +22,7 @@ With a list of raw sentences, consecutively run extract_templates.py --> nli_gra
 
 If the raw sentences contain entity type, such as "And strangely enough , <e2:PERSON> Cain </e2:PERSON> 's short , three-year tenure at the <e1:ORGANIZATION> NRA </e1:ORGANIZATION> is evidently the only period in his decades-long career during which he 's alleged to have been a sexual predator .", run the "typed" version codes instead.
 
-## Model Training
+## Train & Evaluate
 
 Once you prepared all required data files, you can train the model by running
 
