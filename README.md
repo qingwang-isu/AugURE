@@ -18,7 +18,11 @@ pip install -r requirements.txt
 
 Go inside the folder cross_sentence_pairs_extraction
 
-With a list of raw sentences, consecutively run extract_templates.py --> nli_graph_construct.py --> pairs_generation.py to get cross-sentence pairs. 
+With a list of raw sentences, consecutively run 
+
+extract_templates.py --> nli_graph_construct.py --> pairs_generation.py 
+
+to get cross-sentence pairs. 
 
 If the raw sentences contain entity type, such as "And strangely enough , <e2:PERSON> Cain </e2:PERSON> 's short , three-year tenure at the <e1:ORGANIZATION> NRA </e1:ORGANIZATION> is evidently the only period in his decades-long career during which he 's alleged to have been a sexual predator .", run the "typed" version codes instead.
 
